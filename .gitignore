@@ -1,0 +1,22 @@
+# Python cache and packaging artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+
+# Test and lint artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ROS/colcon build artifacts if this package is built standalone
+build/
+install/
+log/
+
+# Local recordings and runtime logs
+bags/
+*.bag
+*.db3
+*.mcap
+*.log
