@@ -153,7 +153,7 @@ class AutoBagRecorder(Node):
         )
 
     def _declare_parameters(self) -> None:
-        self.declare_parameter("output_dir", "/home/cj/bags/predictnav")
+        self.declare_parameter("output_dir", "~/bags/predictnav")
         self.declare_parameter("bag_prefix", "qav250")
         self.declare_parameter("state_topic", "/mavros/state")
         self.declare_parameter("topics", DEFAULT_TOPICS)

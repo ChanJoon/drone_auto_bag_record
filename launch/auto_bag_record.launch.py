@@ -14,7 +14,7 @@ def generate_launch_description() -> LaunchDescription:
 
     args = [
         DeclareLaunchArgument("config_file", default_value=default_config),
-        DeclareLaunchArgument("output_dir", default_value="/home/cj/bags/predictnav"),
+        DeclareLaunchArgument("output_dir", default_value="~/bags/predictnav"),
         DeclareLaunchArgument("bag_prefix", default_value="qav250_position_vins"),
         DeclareLaunchArgument("record_on_armed", default_value="true"),
         DeclareLaunchArgument("stop_on_disarm", default_value="true"),
